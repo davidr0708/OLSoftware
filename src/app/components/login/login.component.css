@@ -1,0 +1,73 @@
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.panel-login{
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #fff;
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    right: 17%;
+    bottom: 20%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px gray;
+    padding: 35px;
+
+}
+
+.info-login{
+    
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+
+.color-blanco{
+color: #fff;
+}
+
+
+.imagen-login{
+
+    bottom: 0%;
+    width: 75%;
+    border-bottom-right-radius: 70%;
+    position: absolute;
+    top: -80%;
+    border-bottom-left-radius: 55%;
+    padding-bottom: 10%;
+    left: -5%;
+
+}
+
+.derechos{
+    position: absolute;
+    bottom: 2%;
+    left: 40%;
+    right: 40%;
+
+}
+
+.iconos{
+    position: absolute;
+    height: 46%;
+    right: 13%;
+    bottom: 20%;
+}
+
+
+.iconos-pass{
+    position: absolute;
+    height: 32%;
+    right: 13%;
+    bottom: 20%;
+}

@@ -1,0 +1,99 @@
+{
+    "usuarios":[
+        {
+            "nombres":"Andrés Felipe",
+            "apellidos":"Garcia Castro",
+            "identificacion":"1014485404",
+            "rol":"Administrador",
+            "estado":"Activo",
+            "telefono":3165303978,
+            "correo":"afgarcia@refinal.com",
+            "password": "Colombia1"
+        },
+
+        {
+            "nombres":"Elizabeth",
+            "apellidos":"Arboleda",
+            "identificacion":66789080,
+            "rol":"Administrador",
+            "estado":"Inactivo",
+            "telefono":3165303978,
+            "correo":"earboleda@refinal.com",
+            "password": "Colombia2"
+        },
+
+        {
+            "nombres":"Jader",
+            "apellidos":"Penagos",
+            "identificacion": 665789043,
+            "rol":"Conductor",
+            "estado":"Activo",
+            "telefono":3175303978,
+            "correo":"jpenagos@refinal.com",
+            "password": "Colombia3"
+            
+        },
+
+        {
+            "nombres":"Diana",
+            "apellidos":"Villa",
+            "identificacion": 1122567890,
+            "rol":"Recolector",
+            "estado":"Activo",
+            "telefono":3005303976,
+            "correo":"dvilla@refinal.com",
+            "password": "Colombia4"
+            
+        },
+
+        {
+            "nombres":"Luis Andres",
+            "apellidos":"Murillo",
+            "identificacion": 1144198789,
+            "rol":"Administrador",
+            "estado":"Activo",
+            "telefono":3115134078,
+            "correo":"lamurillo@refinal.com",
+            "password": "Colombia5"
+            
+        },
+
+        {
+            "nombres":"Jairo",
+            "apellidos":"Gutierrez",
+            "identificacion":44789056,
+            "rol":"Coordinador",
+            "estado":"Activo",
+            "telefono":3125333977,
+            "correo":"jgutierrez@refinal.com",
+            "password": "Colombia6"
+            
+        },
+
+        {
+            "nombres":"Alexandra",
+            "apellidos":"Culcha",
+            "identificacion":1144198786,
+            "rol":"Digitador CD-UNO",
+            "estado":"Inctivo",
+            "telefono":3145439560,
+            "correo":"aculcha@refinal.com",
+            "password": "Colombia7"
+            
+        },
+
+        {
+            "nombres":"Valentina",
+            "apellidos":"Zapata",
+            "identificacion":72567788,
+            "rol":"Recolector",
+            "estado":"Activo",
+            "telefono":3157893970,
+            "correo":"vzapata@refinal.com",
+            "password": "Colombia8"
+            
+        }
+
+
+    ]
+}

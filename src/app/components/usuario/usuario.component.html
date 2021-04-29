@@ -1,0 +1,77 @@
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+
+<div class="row" style="margin-left: 15px; margin-right: 30px;">
+
+    <div class="col-md-8">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="existente">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#004085" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="9" cy="7" r="4" />
+                        <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                      </svg>
+                
+                      <p style="display: inline;">Usuarios existentes</p>
+                
+                   
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="float-right">
+                    <button type="button" class="btn">Crear</button>
+                </div>
+                
+            </div>
+        </div>
+        
+
+       <div class="row" >
+        <div class="table-responsive" style="font-size: 10px;">
+            <table class="table table-striped" >
+                <thead>
+                  <tr>
+                    <th scope="col">Nombres</th>
+                    <th scope="col">Apellidos</th>
+                    <th scope="col">identificación (C.C)</th>
+                    <th scope="col">Rol asociado</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">Teléfono</th>
+                    <th scope="col">Correo Electronico</th>
+                    <th scope="col">&nbsp;&nbsp;Acción&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let usuario of listaUsuarios">
+                    <td>{{usuario.nombres}}</td>
+                    <td>{{usuario.apellidos}}</td>
+                    <td>{{usuario.identificacion}}</td>
+                    <td>{{usuario.rol}}</td>
+                    <td>{{usuario.estado}}</td>
+                    <td>{{usuario.telefono}}</td>
+                    <td>{{usuario.correo}}</td>
+                    <td>
+                        <div>
+                            <button><span style="color: #004085;" class="glyphicon glyphicon-pencil" aria-hidden="true"></span></button>
+                            <button><span style="color: rgba(165, 35, 35, 0.877);" class="glyphicon glyphicon-trash" aria-hidden="true"></span></button>
+                        </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            
+       </div>
+        
+        </div>
+
+        
+<div class="col-md-4">
+    <app-busqueda></app-busqueda>
+</div>
+
+</div>
+
